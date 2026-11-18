@@ -1,0 +1,10 @@
+{
+  "name": "stdio-hush",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Keeps an MCP stdio server's stdout limited to JSON-RPC messages.",
+  "bin": { "stdio-hush": "bin/stdio-hush.js" },
+  "scripts": { "test": "node --test test/hush.test.js" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
